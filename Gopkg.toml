@@ -26,11 +26,11 @@
 
 
 
-required = ["github.com/labstack/echo"]
+required = ["github.com/go-chi/chi"]
 
 [[constraint]]
-  name = "github.com/labstack/echo"
-  version = "3.3.5"
+  name = "github.com/go-chi/chi"
+  version = "3.3.2"
 
 [prune]
   go-tests = true
